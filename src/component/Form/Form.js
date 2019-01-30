@@ -10,7 +10,7 @@ class Form extends Component {
     render() {
         return (
             <div className = "Form_Container">
-                <h1> Form Componet </h1>
+                <h1> Form Component </h1>
             </div>
         );
     }
