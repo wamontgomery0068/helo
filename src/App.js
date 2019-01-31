@@ -1,27 +1,30 @@
 import React, { Component } from 'react';
+import { BrowserRouter } from 'react-router-dom';
+import routes from './routes';
 import './App.css';
 
-// Imported Components Below
 
-import Nav from './component/Nav/Nav';
-import Auth from './component/Auth/Auth';
-import Dashboard from './component/Dashboard/Dashboard';
-import Form from './component/Form/Form';
-import Post from './component/Post/Post';
 
-// Imported Components Above
+
+// Imported Components Below before making a routes file
+
+// import Nav from './component/Nav/Nav';
+// import Auth from './component/Auth/Auth';
+// import Dashboard from './component/Dashboard/Dashboard';
+// import Form from './component/Form/Form';
+// import Post from './component/Post/Post';
+
+// Imported Components Above before making a routes file
 
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Nav />
-        <Auth />
-        <Dashboard />
-        <Form />
-        <Post />
-      </div>
+      <BrowserRouter>
+        <div className = "App_Container">
+          {routes}
+        </div>
+      </BrowserRouter>
     );
   }
 }
