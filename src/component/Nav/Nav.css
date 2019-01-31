@@ -1,0 +1,18 @@
+.Nav_Container {
+	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: stretch;
+    
+    /* border: 2px solid black; */
+    height: 100vh;
+    width: auto;
+}
+
+.Nav_Bar {
+    background-image: linear-gradient(to top, #06acf5, #00b5f5, #00bdf3, #00c5f1, #00cded, #00d4e9, #00dbe3, #00e1da, #00e8ca, #00eeb1, #13f291, #58f56a);
+    /* border: 2px solid black; */
+    box-shadow: 4px 6px 6px gray;
+    height: auto;
+    width: 80px;
+}
