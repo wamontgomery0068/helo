@@ -16,6 +16,9 @@ import './App.css';
 
 // Imported Components Above before making a routes file
 
+// ****** Reminder ******
+// Import Nav
+
 
 class App extends Component {
   render() {

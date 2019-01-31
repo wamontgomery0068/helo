@@ -1,11 +1,16 @@
 import React, { Component } from "react";
 import './Auth.css';
+import axios from "axios";
+import Wink from "../../Images/winkface.png";
 
 class Auth extends Component {
     constructor(){
         super();
 
-        this.state = {};
+        this.state = {
+            username: "",
+            password: ""
+        };
     };
 
     render() {
@@ -13,7 +18,7 @@ class Auth extends Component {
             <div className = "Auth_Container">
                 <div className = "Auth_Card">
                     <div className = "Auth_Card_Logo">
-                        <img className = "Logo_Image" src="https://image.flaticon.com/icons/svg/590/590013.svg" alt="Winky Smiley" />
+                        <img className = "Logo_Image" src= {Wink} alt="Winky Smiley" />
                     </div>
                     <div className = "Auth_Card_Title">
                         <p className = "Auth_Card_Title_Text"> Helo </p>
