@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './Auth.css';
 
 class Auth extends Component {
     constructor(){
@@ -10,7 +11,26 @@ class Auth extends Component {
     render() {
         return (
             <div className = "Auth_Container">
-                <h1> Auth Component </h1>
+                <div className = "Auth_Card">
+                    <div className = "Auth_Card_Logo">
+                        <img className = "Logo_Image" src="https://image.flaticon.com/icons/svg/590/590013.svg" alt="Winky Smiley" />
+                    </div>
+                    <div className = "Auth_Card_Title">
+                        <p className = "Auth_Card_Title_Text"> Helo </p>
+                    </div>
+                    <div className = "Auth_Card_Field">
+                        <p className = "Auth_Card_Field_Text"> Username: <input className = "Auth_Input_1" /></p>
+                        <p className = "Auth_Card_Field_Text"> Password: <input className = "Auth_Input_2" /> </p>
+                    </div>
+                    <div className = "Auth_Card_Buttons">
+                        <button className = "Auth_Card_Button_Login">
+                            <p className = "Auth_Card_Button_Login_Text"> Login </p>
+                        </button>
+                        <button className = "Auth_Card_Button_Register">
+                            <p className = "Auth_Card_Button_Register_Text"> Register </p>
+                        </button>
+                    </div>
+                </div>
             </div>
         );
     }
