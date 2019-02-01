@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import './Dashboard.css'
 
 class Dashboard extends Component {
     constructor(){
@@ -10,7 +11,7 @@ class Dashboard extends Component {
     render() {
         return (
             <div className = "Dashboard_Container">
-                <h1> Dashboard Component </h1>
+            
             </div>
         );
     }
