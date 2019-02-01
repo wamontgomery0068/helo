@@ -6,8 +6,10 @@
 
     background-image: linear-gradient(to right, #06acf5, #00bbf6, #00c9f0, #00d6e6, #00e1d8, #00e8cb, #00edb7, #1bf29f, #3bf487, #58f56a, #74f648, #8ff506);
     /* border: 2px solid black; */
-    height: 100vh;
+    height: 106.5vh;
     width: auto;
+    z-index: 1;
+    margin-top: -50%
 }
 
 .Auth_Card {

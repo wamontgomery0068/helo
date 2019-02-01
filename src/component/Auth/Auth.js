@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import './Auth.css';
-import axios from "axios";
 import Wink from "../../Images/winkface.png";
 
 class Auth extends Component {
