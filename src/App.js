@@ -8,7 +8,7 @@ import './App.css';
 
 // Imported Components Below before making a routes file
 
-// import Nav from './component/Nav/Nav';
+import Nav from './component/Nav/Nav';
 // import Auth from './component/Auth/Auth';
 // import Dashboard from './component/Dashboard/Dashboard';
 // import Form from './component/Form/Form';
@@ -25,6 +25,7 @@ class App extends Component {
     return (
       <BrowserRouter>
         <div className = "App_Container">
+          <Nav />
           {routes}
         </div>
       </BrowserRouter>
