@@ -7,7 +7,7 @@
     /* border: 2px solid black; */
     height: 100vh;
     width: auto;
-    z-index: 2;
+    z-index: 10;
 }
 
 .Nav_Bar {
@@ -101,7 +101,7 @@
     border: none;
     height: 40px;
     width: 40px;
-    margin-top: 285%
+    margin-top: 490%
 }
 
 .Nav_Icons {

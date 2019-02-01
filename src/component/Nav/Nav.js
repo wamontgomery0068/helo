@@ -1,5 +1,7 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './Nav.css'
+
 
 // Imported Images Below
 
@@ -26,9 +28,11 @@ export default function Nav() {
                 <button className = "Nav_AddPage">
                     <img className = "Nav_Icons" src = { add }></img>
                 </button>
+                <Link to = "/" >
                 <button className = "Nav_LogOut">
                     <img className = "Nav_Icons" src = { off }></img>
                 </button>
+                </Link>
             </div>     
         </div>
     )
