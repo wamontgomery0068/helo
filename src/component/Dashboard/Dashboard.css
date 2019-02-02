@@ -137,13 +137,55 @@
 }
 
 .Data_Name {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 40px;
+}
 
+.Data_Name_Text {
+    font-size: 12px;
+    color: gray;
+    margin-left: 10%
 }
 
 .Data_Author {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
 
+    /* border: 2px solid black; */
+    height: 20px;
+    width: 60px;
+    margin-left: 72%
+}
+
+.Data_Author_Text {
+    font-size: 8px;
+    color: gray;
 }
 
 .Data_Profile_Image {
-    
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+
+    /* border: 1px solid black; */
+    border-radius: 25px;
+    box-shadow:  0px 0px 1px 1px grey;
+    height: 28px;
+    width: 28px;
+    /* margin-left: 5% */
+}
+
+.Profile_Image {
+    border-radius: 25px;
+    height: 28px;
+    width: 28px;
 }

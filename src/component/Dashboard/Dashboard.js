@@ -27,9 +27,15 @@ class Dashboard extends Component {
                 </div>
                 <div className = "Dashboard_Entry">
                     <div className = "Data_Entry">
-                        <div className = "Data_Name"></div>
-                        <div className = "Data_Author"></div>
-                        <div className = "Data_Profile_Image"></div>
+                        <div className = "Data_Name">
+                            <p className = "Data_Name_Text"> Movies </p>
+                        </div>
+                        <div className = "Data_Author">
+                            <p className = "Data_Author_Text"> by: R2-D2 </p>
+                        </div>
+                        <div className = "Data_Profile_Image">
+                            <img className = "Profile_Image" src = "http://www.fubiz.net/wp-content/uploads/2015/12/starwarsicons-14-900x872.jpg" />
+                        </div>
                     </div>
                 </div>
         
