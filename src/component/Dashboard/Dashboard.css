@@ -31,13 +31,20 @@
     border: 1px solid lightgray;
     /* box-shadow: 0px 0.5px 0.5px black; */
     /* border-radius: 2px; */
-    height: 15px;
+    height: 12px;
     width: 280px;
-    margin-left: 2%
+    margin-left: 2%;
+
+    font-size: 8px
 
 }
 
 .Search_Button {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    
     background-image: linear-gradient(to right, #06acf5, #00bbf6, #00c9f0, #00d6e6, #00e1d8, #00e8cb, #00edb7, #1bf29f, #3bf487, #58f56a, #74f648, #8ff506);
     /* border: 1px solid lightgray; */
     /* box-shadow: 0px 1px 1px black; */
@@ -45,7 +52,12 @@
     border-radius: 2px;
     height: 16px;
     width: 16px;
+}
 
+.Search_Image {
+    height: 12px;
+    width: 12px;
+    
 }
 
 .Reset_Button {
@@ -64,26 +76,42 @@
 
 .Reset_Text {
     color: white;
-    margin-top: 14%;
+    margin-top: 15%;
     font-size: 7.5px
 }
 
-.My_Post_Text {
-    border: 2px solid black;
+.My_Post {
+    display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    
+    /* border: 2px solid black; */
     height: 15px;
-    width: 20px;
+    width: 35px;
     margin-left: 21.8%
+}
 
+.My_Post_Text {
+    font-size: 8px;
+    color: black;
+    font-weight: bold;
 }
 
 .Input_Checkbox {
     border: 2px solid black;
-    height: 15px;
-    width: 20px;
+    height: 9px;
+    width: 9px;
+    margin-top: 1.6%
 
 }
 
 .Dashboard_Entry {
+    display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	align-items: center;
+    
     background-color: white;
     box-shadow: 0px 1px 2px black;
     border-radius: 2px;
@@ -92,5 +120,30 @@
     width: 500px;
     margin-top: 1%;
     margin-left: 7%
+}
 
+.Data_Entry {
+    display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
+	align-items: center;
+    
+    /* border: 1px solid black; */
+    box-shadow: 0px 1px 2px black;
+    border-radius: 2px;
+    height: 40px;
+    width: 480px;
+    margin: 2%
+}
+
+.Data_Name {
+
+}
+
+.Data_Author {
+
+}
+
+.Data_Profile_Image {
+    
 }
