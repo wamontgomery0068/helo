@@ -50,7 +50,7 @@
     /* border: 2px solid black; */
     height: 20px;
     width: 50px;
-    margin-top: 6%
+    margin-top: 10px;
 }
 
 .Nav_Username_Text {
@@ -72,7 +72,7 @@
     border: none;
     height: 40px;
     width: 40px;
-    margin-top: 10%
+    margin-top: 8px;
 
 }
 
@@ -87,7 +87,7 @@
     border: none;
     height: 40px;
     width: 40px;
-    margin-top: 10%
+    margin-top: 8px;
 }
 
 .Nav_LogOut {
@@ -101,7 +101,7 @@
     border: none;
     height: 40px;
     width: 40px;
-    margin-top: 490%
+    margin-top: 148px;
 }
 
 .Nav_Icons {
