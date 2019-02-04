@@ -21,7 +21,7 @@ export function login( username, password) {
 
 export function register(username, password) {
     return {
-      type: SIGN_UP,
+      type: REGISTER,
       payload: axios.post("/auth/register", { username, password })
     };
 };
@@ -51,5 +51,5 @@ export default function reducer(state = initialState, action) {
             return { ...state, error: "Bad User" };
         default:
             return state;
-    };
+    }
 };
