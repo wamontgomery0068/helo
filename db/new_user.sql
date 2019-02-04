@@ -1,3 +1,2 @@
-insert into helo_user (username, password)
-values($1, $2)
-return*;
+INSERT INTO helo_user (username, password) VALUES (${username}, ${password}
+) RETURNING *;
