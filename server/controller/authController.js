@@ -2,7 +2,7 @@ const bcrypt = require("bcryptjs");
 
 const login = (req, res) => {
     const db = req.app.get("db");
-    db.getUser({username: req.body.username})
+    db.get_user({username: req.body.username})
     .then(async users => {
         if (!users.length){
             res.status(401).json({error: "User Not Found"})
@@ -43,7 +43,7 @@ const user = (req, res) => {
     };
 };
 
-module.export = {
+module.exports = {
     login,
     register,
     user
