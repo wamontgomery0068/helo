@@ -1,5 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import {Provider} from 'react-redux';
+import store from './store';
 
 // Imported Components Below
 
@@ -12,11 +14,13 @@ import Post from './component/Post/Post';
 // Import Components Above
 
 export default (
-    <Switch>
-        <Route component = {Auth} exact path = "/" />
-        <Route component = {Dashboard} path = "/dashboard" />
-        <Route component = {Post} path = "/post" />
-        <Route component = {Form} path = "/new_post"/>
-        <Route component = {Nav} path = "/nav"/>
-    </Switch>
+    <Provider store = {store}>
+        <Switch>
+            <Route component = {Auth} exact path = "/" />
+            <Route component = {Dashboard} path = "/dashboard" />
+            <Route component = {Post} path = '/post/:postid' />
+            <Route component = {Form} path = "/new_post"/>
+            <Route component = {Nav} path = "/nav"/>
+        </Switch>
+    </Provider>
 );
