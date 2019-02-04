@@ -7,6 +7,7 @@ const app = express();
 const ac = require("./controller/authController");
 
 app.use(json());
+app.use( express.static( `${__dirname}/../build` ) );
 app.use(session({
     secret: process.env.SECRET,
     resave: true,
